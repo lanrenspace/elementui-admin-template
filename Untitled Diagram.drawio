@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T10:31:44.559Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="ZoGOC1AWrmghU4cr2WKC" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T02:00:30.606Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="RDPK21WEFTpxc_LfBxW1" version="17.1.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="981" dy="2917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3555" dy="4296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -178,20 +178,52 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="hI4Vrk3YfiVBAEvMPHJm-279" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#FFFF66;fontSize=12;fontColor=#000000;strokeColor=#67AB9F;" edge="1" parent="hI4Vrk3YfiVBAEvMPHJm-45" source="hI4Vrk3YfiVBAEvMPHJm-262" target="hI4Vrk3YfiVBAEvMPHJm-275">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hI4Vrk3YfiVBAEvMPHJm-280" value="根据收款方式数据生成代收银收款单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="hI4Vrk3YfiVBAEvMPHJm-279">
+          <mxGeometry x="-0.1824" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hI4Vrk3YfiVBAEvMPHJm-262" value="" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="hI4Vrk3YfiVBAEvMPHJm-45">
           <mxGeometry x="95" y="330" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hI4Vrk3YfiVBAEvMPHJm-281" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#FFFF66;fontSize=12;fontColor=#000000;strokeColor=#67AB9F;" edge="1" parent="hI4Vrk3YfiVBAEvMPHJm-45" source="hI4Vrk3YfiVBAEvMPHJm-275" target="hI4Vrk3YfiVBAEvMPHJm-276">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hI4Vrk3YfiVBAEvMPHJm-282" value="自动核销" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="hI4Vrk3YfiVBAEvMPHJm-281">
+          <mxGeometry x="-0.2789" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="hI4Vrk3YfiVBAEvMPHJm-275" value="收款单" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="hI4Vrk3YfiVBAEvMPHJm-45">
           <mxGeometry x="90" y="460" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="hI4Vrk3YfiVBAEvMPHJm-283" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#FFFF66;fontSize=12;fontColor=#000000;strokeColor=#67AB9F;" edge="1" parent="hI4Vrk3YfiVBAEvMPHJm-45" source="hI4Vrk3YfiVBAEvMPHJm-276" target="hI4Vrk3YfiVBAEvMPHJm-277">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hI4Vrk3YfiVBAEvMPHJm-284" value="自动核销后产生销售返款处理单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="hI4Vrk3YfiVBAEvMPHJm-283">
+          <mxGeometry x="-0.2321" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hI4Vrk3YfiVBAEvMPHJm-276" value="核销单" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="hI4Vrk3YfiVBAEvMPHJm-45">
           <mxGeometry x="300" y="460" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="hI4Vrk3YfiVBAEvMPHJm-285" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#FFFF66;fontSize=12;fontColor=#000000;strokeColor=#67AB9F;" edge="1" parent="hI4Vrk3YfiVBAEvMPHJm-45" source="hI4Vrk3YfiVBAEvMPHJm-277" target="hI4Vrk3YfiVBAEvMPHJm-278">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hI4Vrk3YfiVBAEvMPHJm-286" value="自动审核通过&lt;br&gt;产生代收银余额" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#000000;" vertex="1" connectable="0" parent="hI4Vrk3YfiVBAEvMPHJm-285">
+          <mxGeometry x="0.2159" relative="1" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hI4Vrk3YfiVBAEvMPHJm-277" value="处理单（代客收银）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="hI4Vrk3YfiVBAEvMPHJm-45">
-          <mxGeometry x="90" y="590" width="120" height="60" as="geometry" />
+          <mxGeometry x="300" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hI4Vrk3YfiVBAEvMPHJm-278" value="余额查询（代客收银）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="hI4Vrk3YfiVBAEvMPHJm-45">
-          <mxGeometry x="300" y="590" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hI4Vrk3YfiVBAEvMPHJm-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hI4Vrk3YfiVBAEvMPHJm-49">
           <mxGeometry relative="1" as="geometry">
